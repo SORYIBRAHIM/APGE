@@ -11,6 +11,7 @@ Route::get('/modification', function () {
 Route::get('/gestion_employes', function () {
     return view('Gestion_Employées');
 });
+
 Route::get('/liste_pointage', function () {
     return view('Liste_pointage');
 });
