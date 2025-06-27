@@ -8,6 +8,7 @@ Route::get('/', function () {
 Route::get('/modification', function () {
     return view('Modification');
 });
+
 Route::get('/gestion_employes', function () {
     return view('Gestion_Employées');
 });
