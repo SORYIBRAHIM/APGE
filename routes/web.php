@@ -5,18 +5,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/modification', function () {
+Route::get('/', function () {
     return view('Modification');
 });
-
-Route::get('/gestion_employes', function () {
+Route::get('/', function () {
     return view('Gestion_Employées');
 });
-
-Route::get('/liste_pointage', function () {
+Route::get('/', function () {
     return view('Liste_pointage');
 });
 
-Route::get('/planification', function () {
+Route::get('/', function () {
     return view('Planification_H');
 });
